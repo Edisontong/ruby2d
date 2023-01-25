@@ -1,5 +1,9 @@
 require "ruby2d"
 
-s = Square.new
+t = Triangle.new
+s = Square.new(
+  color: "red",
+)
+t.z = 1
 
 show
